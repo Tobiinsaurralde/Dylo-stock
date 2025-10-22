@@ -5,7 +5,7 @@ import {
   EliminarProductos,
   InsertarProductos,
   MostrarProductos,
-  ReportStockProductosTodos,ReportStockXProducto,ReportStockBajoMinimo,ReportKardexEntradaSalida,ReportInventarioValorado
+  ReportStockPROductosTodos,ReportStockXProducto,ReportStockBajoMinimo,ReportKardexEntradaSalida,ReportInventarioValorado
 } from "../index";
 export const useProductosStore = create((set, get) => ({
   buscador: "",
@@ -51,8 +51,8 @@ export const useProductosStore = create((set, get) => ({
     set({ dataproductos: response });
     return response;
   },
-  reportStockProductosTodos: async (p) => {
-    const response = await ReportStockProductosTodos(p);
+  reportStockPROductosTodos: async (p) => {
+    const response = await ReportStockPROductosTodos(p);
     return response;
   },
   reportStockXproducto: async (p) => {

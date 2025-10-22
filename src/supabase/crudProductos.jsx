@@ -57,7 +57,7 @@ export async function BuscarProductos(p) {
   } catch (error) {}
 }
 //REPORTES
-export async function ReportStockProductosTodos(p) {
+export async function ReportStockPROductosTodos(p) {
   const { data, error } = await supabase
     .from(tabla)
     .select()

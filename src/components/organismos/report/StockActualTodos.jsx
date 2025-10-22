@@ -12,11 +12,11 @@ import { useEmpresaStore, useProductosStore } from "../../../index";
 import { useQuery } from "@tanstack/react-query";
 
 function StockActualTodos() {
-  const { reportStockProductosTodos } = useProductosStore();
+  const { reportStockPROductosTodos } = useProductosStore();
   const { dataempresa } = useEmpresaStore();
   const { data, isLoading, error } = useQuery({
     queryKey: ["reporte stock todos", { id_empresa: dataempresa?.id }],
-    queryFn: () => reportStockProductosTodos({ id_empresa: dataempresa?.id }),
+    queryFn: () => reportStockPROductosTodos({ id_empresa: dataempresa?.id }),
     enabled: !!dataempresa,
   });
   if (isLoading) {

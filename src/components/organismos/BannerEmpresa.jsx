@@ -20,7 +20,7 @@ export function BannerEmpresa() {
 
           </span>
           <div className="content-text">
-            StockPRO te mantiene siempre informado.
+            Dylo-Stock te mantiene siempre informado.
           </div>
         
 

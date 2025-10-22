@@ -63,7 +63,7 @@ export function LoginTemplate() {
     <Container imgfondo={v.imagenfondo}>
       <div className="contentLogo">
         <img src={logo}></img>
-        <span>StockPRO</span>
+        <span>Dylo-Stock</span>
       </div>
       <div className="bannerlateral">
         <img src={carrito}></img>
@@ -73,7 +73,7 @@ export function LoginTemplate() {
         <div className="card">
           {state && <RegistrarAdmin setState={() => setState(!state)} />}
 
-          <Titulo>StockPRO</Titulo>
+          <Titulo>Dylo-Stock</Titulo>
           {stateInicio && (
             <TextoStateInicio>datos incorrectos</TextoStateInicio>
           )}
@@ -111,7 +111,7 @@ export function LoginTemplate() {
               {errors.pass?.type === "required" && <p>Campo requerido</p>}
             </InputText>
             <ContainerBtn>
-              <Btnsave titulo="Iniciar" bgcolor="#fc6b32" />
+              <Btnsave titulo="Iniciar" bgcolor="#5d1e8aff" />
               <Btnsave
                 funcion={() => setState(!state)}
                 titulo="Crear cuenta"
@@ -160,7 +160,7 @@ const Container = styled.div`
   }
 
   .bannerlateral {
-    background-color: #fc6b32;
+    background-color: #5d1e8aff;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -210,7 +210,7 @@ const Container = styled.div`
       }
     }
     .frase {
-      color: #fc6c32;
+      color: #5d1e8aff;
       font-size: 1.5rem;
       font-weight: 700;
       margin-bottom:30px;
@@ -257,5 +257,5 @@ const ContainerBtn = styled.div`
   justify-content: center;
 `;
 const TextoStateInicio = styled.p`
-  color: #fc7575;
+  color: #55318fff;
 `;

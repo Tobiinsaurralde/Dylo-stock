@@ -45,7 +45,7 @@ export function Tabs() {
           "rgba(255, 206, 86, 1)",
           "rgba(75, 192, 192, 1)",
           "rgba(153, 102, 255, 1)",
-          "rgba(255, 159, 64, 1)",
+          "rgba(191, 64, 255, 1)",
         ],
         borderWidth: 2,
         hoverOffset: 16,
@@ -156,12 +156,12 @@ const Container = styled.div`
       display: flex;
       height: 4px;
       width: 180px;
-      background-color: #e05024;
+      background-color: #a824e0ff;
       z-index: 1;
       border-radius: 15px;
       transition: 0.25s ease-out;
       transform: translateX(${(props) => props.activeTab});
-      box-shadow: 0px 10px 20px -3px #ff5722;
+      box-shadow: 0px 10px 20px -3px #8222ffff;
       bottom:0;
     }
   }

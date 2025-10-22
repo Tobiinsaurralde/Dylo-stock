@@ -16,10 +16,10 @@ export function BannerHome() {
         <div className="content-wrapper-context">
           <span className="titulo">
             {<v.iconoempresa />}
-            Bienvenido a StockPRO
+            Bienvenido a Dylo-Stock
           </span>
           <div className="content-text">
-            StockPRO te ayuda a tener un control de tus inventarios desde
+           Dylo-Stock  te ayuda a tener un control de tus inventarios desde
             cualquier dispositivo.
           </div>
 
